@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HardTask1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Theme.HardTask1" parent="Base.Theme.HardTask1" />
+    <style name="text_style" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="title_text_style" parent="TextAppearance.Material3.ActionBar.Title">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>
